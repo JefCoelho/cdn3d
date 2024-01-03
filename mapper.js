@@ -1,6 +1,6 @@
 async function GetMapperJson(){
 
-    const response = await fetch("./reference-mapper.json"); 
+    const response = await fetch("https://cdn3d.vercel.app/reference-mapper.json"); 
     const json = await response.json();
     return json;
 }
