@@ -257,5 +257,5 @@ window.addEventListener('click', onClick);
 window.addEventListener('mousedown', OnMouseDown);
 window.boxBase = document.getElementById("boxBase");
 boxClose = document.getElementById("boxClose");
-boxClose.addEventListener('click', onExitClick);
+//boxClose.addEventListener('click', onExitClick);
 
