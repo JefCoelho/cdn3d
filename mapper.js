@@ -85,7 +85,7 @@ async function BuildMaterial(material){
     let mat = new THREE.MeshStandardMaterial();
     if(material.videotexture){
         let video = document.getElementById( 'video' );
-        video.src = "./" + material.videosource;
+        video.src = material.videosource;
         const texture = new THREE.VideoTexture( video );
         texture.colorSpace = THREE.SRGBColorSpace;
         mat.map = texture;
