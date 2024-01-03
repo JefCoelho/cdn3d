@@ -1,0 +1,251 @@
+{
+    "materials": [
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "mdf",
+                "equals": ""
+            },
+            "bumpmap": "/gl_image/brushed-metal.jpg",
+            "bumpscale": 0.01,
+            "metalness": 0.1,
+            "roughness": 0.7,
+            "bumpmapRepeatU": 0.3, 
+            "bumpmapRepeatV": 0.3 
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "adesivo",
+                "equals": ""
+            },            
+            "metalness": 0,
+            "roughness": 0.1,
+            "envMapIntensity": 1
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "plastico",
+                "equals": ""
+            },            
+            "metalness": 0,
+            "roughness": 0.05,
+            "envMapIntensity": 0.75
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "madeira",
+                "equals": ""
+            },
+            "usemapasbump":true,
+            "bumpscale": 1,
+            "metalness": 0.1,
+            "roughness": 0.6,
+            "envMapIntensity": -1            
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "bagum",
+                "equals": ""
+            },
+            "bumpmap": "/gl_image/leather_bump.jpg",
+            "bumpscale": 0.3,
+            "metalness": 0.02,
+            "roughness": 0.6,
+            "envMapIntensity": 0.7,
+            "bumpmapRepeatU": 0.2, 
+            "bumpmapRepeatV": 0.2              
+        },        
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "tx_cromo",
+                "equals": ""
+            },
+            "bumpmap": "",
+            "bumpscale": 0,
+            "metalness": 1,
+            "roughness": 0.01,
+            "envMapIntensity": 1.2
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "metal",
+                "equals": ""
+            },
+            "bumpmap": "",
+            "bumpscale": 0,
+            "metalness": 1,
+            "roughness": 0.5,
+            "envMapIntensity": 1.2
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "espelho",
+                "equals": ""
+            },
+            "bumpmap": "",
+            "bumpscale": 0,
+            "metalness": 1,
+            "roughness": 0.001,
+            "envMapIntensity": 1
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "piso bus bump",
+                "equals": ""
+            },
+            "bypassmap":true,
+            "bypasscolor":true,
+            "tintcolor":"#858585",
+            "usemapasbump":true,
+            "displacementmap": "/gl_image/DisplacementMap-bus.jpg",
+            "displacementscale": 0.03,
+            "bumpscale": 0.7,
+            "metalness": 0.7,
+            "roughness": 0.2
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "carpet",
+                "equals": ""
+            },            
+            "usemapasbump":true,
+            "displacementmap": "/gl_image/Carpet_P.jpg",
+            "displacementscale": 0.03,
+            "bumpscale": 0.7,
+            "metalness": 0.1,
+            "roughness": 0.7
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "tx_aluminio",
+                "equals": ""
+            },            
+            "bumpmap": "",
+            "bumpscale": 0,
+            "metalness": 1,
+            "roughness": 0.4,
+            "envMapIntensity": 2
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "tg_vidro",
+                "equals": ""
+            },
+            "transparency": true,
+            "opacity": 1,
+            "metalness": 0,
+            "roughness": 0.0001,
+            "refractiveIndex": 1.5,
+            "envMapIntensity": 6
+        },
+        {
+            "pattern": {
+                "prefix": "led",
+                "sufix": "",
+                "contains": "",
+                "equals": ""
+            },
+            "emissionintensity": 0.3,
+            "emissioncolor": "#ffffff",
+            "bloom": true
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "retro",
+                "equals": ""
+            },
+            "usemapasbump":true,
+            "emissionintensity": 0.2,
+            "emissioncolor": "#ffffff",
+            "roughness": 0.5,
+            "bloom": true
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "",
+                "equals": "0312b453-cd67-41e3-8f2c-13656761b841_5"
+            },
+            "videotexture": true,
+            "videosource": "video.mp4",
+            "metalness": 0.1,
+            "roughness": 0.1,
+            "envMapIntensity": 1,
+            "emissionintensity": 0.15,
+            "emissioncolor": "#fcfbf8",            
+            "bloom": false
+        }
+    ],
+    "lights": [
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "apagar",
+                "equals": ""
+            },
+            "removemesh": true,
+            "type": "spot",
+            "intensity": 0.025,
+            "color": "#ffffff",
+            "range": 100,
+            "angle": 2.7,
+            "penumbra": 10,
+            "decay": 1000,
+            "distance": 3,
+            "targetoffset": {
+                "x": 0,
+                "y": -100,
+                "z": -30
+            }
+        },
+        {
+            "pattern": {
+                "prefix": "",
+                "sufix": "",
+                "contains": "refletor",
+                "equals": ""
+            },
+            "removemesh": true,
+            "type": "spot",
+            "intensity": 0.07,
+            "color": "#fff8c7",
+            "range": 20,
+            "angle": 3,
+            "penumbra": 30,
+            "decay": 10,
+            "distance": 3,
+            "targetoffset": {
+                "x": 0,
+                "y": -100,
+                "z": 0
+            }
+        }
+    ]
+}
