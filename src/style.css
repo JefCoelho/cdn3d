@@ -1,0 +1,87 @@
+.floatPlus{
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:40px;
+	left:40px;
+	background-color:rgb(113, 84, 255);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	cursor:pointer;
+    vertical-align:middle;
+}
+.floatMinus{
+	position:absolute;
+	width:60px;
+	height:60px;
+	top:120px;
+	left:40px;
+	background-color:rgb(113, 84, 255);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	cursor:pointer;
+    vertical-align:middle;
+}
+.float{
+	width: 50%;
+	margin: auto;
+    font-size: 40px;
+	text-decoration: none;
+	cursor:pointer;
+    vertical-align:middle;
+
+}
+.box{
+	width: 80%;
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+    left: 1px;
+    position: absolute;
+
+}
+.boxX{
+	border-color: #000000;
+    background-color: #FFF;
+    border-width: 2px;
+    border-style: outset;
+    top: -5px;
+    left: 125px;
+    position: relative;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+.boxRoot{
+	position: absolute;
+    width: 150px;
+    height: 200px;
+    top: 120px;
+    right: 40px;
+    background-color: rgb(201, 201, 201);
+    color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+    vertical-align: middle;
+	display: none;
+}
+.listClose{
+	width: 100%;
+}
+.list{
+	width:100%;
+}
+.listContainer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 10px;
+}
