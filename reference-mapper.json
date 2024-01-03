@@ -7,7 +7,7 @@
                 "contains": "mdf",
                 "equals": ""
             },
-            "bumpmap": "/gl_image/brushed-metal.jpg",
+            "bumpmap": "https://cdn3d.vercel.app/gl_image/brushed-metal.jpg",
             "bumpscale": 0.01,
             "metalness": 0.1,
             "roughness": 0.7,
@@ -56,7 +56,7 @@
                 "contains": "bagum",
                 "equals": ""
             },
-            "bumpmap": "/gl_image/leather_bump.jpg",
+            "bumpmap": "https://cdn3d.vercel.app/gl_image/leather_bump.jpg",
             "bumpscale": 0.3,
             "metalness": 0.02,
             "roughness": 0.6,
@@ -114,7 +114,7 @@
             "bypasscolor":true,
             "tintcolor":"#858585",
             "usemapasbump":true,
-            "displacementmap": "/gl_image/DisplacementMap-bus.jpg",
+            "displacementmap": "https://cdn3d.vercel.app/gl_image/DisplacementMap-bus.jpg",
             "displacementscale": 0.03,
             "bumpscale": 0.7,
             "metalness": 0.7,
@@ -128,7 +128,7 @@
                 "equals": ""
             },            
             "usemapasbump":true,
-            "displacementmap": "/gl_image/Carpet_P.jpg",
+            "displacementmap": "https://cdn3d.vercel.app/gl_image/Carpet_P.jpg",
             "displacementscale": 0.03,
             "bumpscale": 0.7,
             "metalness": 0.1,
@@ -193,7 +193,7 @@
                 "equals": "0312b453-cd67-41e3-8f2c-13656761b841_5"
             },
             "videotexture": true,
-            "videosource": "video.mp4",
+            "videosource": "https://cdn3d.vercel.app/src/video.mp4",
             "metalness": 0.1,
             "roughness": 0.1,
             "envMapIntensity": 1,
