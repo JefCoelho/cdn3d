@@ -234,7 +234,7 @@
             },
             "removemesh": true,
             "type": "spot",
-            "intensity": 0.07,
+            "intensity": 0.1,
             "color": "#fff8c7",
             "range": 20,
             "angle": 3,
