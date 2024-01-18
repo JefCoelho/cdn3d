@@ -180,7 +180,7 @@
                 "equals": ""
             },
             "usemapasbump":true,
-            "emissionintensity": 0.2,
+            "emissionintensity": 0.05,
             "emissioncolor": "#ffffff",
             "roughness": 0.5,
             "bloom": true
