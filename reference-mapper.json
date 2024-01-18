@@ -180,10 +180,10 @@
                 "equals": ""
             },
             "usemapasbump":true,
-            "emissionintensity": 0.05,
+            "emissionintensity": 0.2,
             "emissioncolor": "#ffffff",
             "roughness": 0.5,
-            "bloom": true
+            "bloom": false
         },
         {
             "pattern": {
